@@ -11,7 +11,7 @@
 using namespace std;
 using namespace eosio;
 
-static constexpr eosio::name ORACLE_CONTRACT = name("oracletest12");
+static constexpr eosio::name ORACLE_CONTRACT = name("rng.oracle");
 
 CONTRACT rngconsumer: public contract {
 
